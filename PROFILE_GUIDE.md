@@ -15,7 +15,7 @@ Retain the original profile's emoji headings and tools section. The new banner u
 
 The banner is local. Static technology and navigation badges use Shields.io; they need external image access. GitHub activity-stat cards are omitted because the former provider currently reports that its public service can be unreliable. Do not add custom CSS, scripts, or inline styles to the README: GitHub sanitizes them.
 
-The personal-site repository is `jaesung8/jaesung8.github.io`. Its publication hold remains in place; add a website/CV navigation link after the public destination is verified. Local edits are not publication.
+The personal-site repository is `jaesung8/jaesung8.github.io`. Publication was authorized on 2026-10-06. The source repository remains private, while its GitHub Pages site is public at [jaesung8.github.io](https://jaesung8.github.io/). The deployment workflow succeeded; retain links only to verified public destinations. Local edits are not publication.
 
 ## References reviewed on 2026-10-06
 

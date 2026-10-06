@@ -43,7 +43,7 @@
 
 </details>
 
-### 🛠️ Engineering
+### 🛠 Engineering
 
 **Asynchronous backend services · Tanker**<br />
 Separated API requests from long-running workers with **RabbitMQ**, used **Redis** caching and **PostgreSQL**, and automated **AWS ECS** deployment with **GitHub Actions**. Integrated **pytest** into CI and modularized **Terraform**.
