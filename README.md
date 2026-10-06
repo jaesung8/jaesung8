@@ -16,7 +16,7 @@
 
 ### ⚡ A few quick facts
 
-- 🔬 **Currently:** Contract Researcher at **Auto-ID Labs Korea, KAIST** · September 2026–Present.
+- 🔬 **Currently:** AI Researcher at **Auto-ID Labs Korea, KAIST** · September 2026–Present.
 - 🎓 **Education:** M.S. in Computer Science, KAIST · completed August 2026.
 - 🌐 **Research:** 3D Gaussian Splatting, visual grounding, and vision-language model evaluation.
 - 🛠️ **Previously:** developed and operated backend services at **Tanker** and **XenoImpact**.
@@ -77,7 +77,7 @@ Participated in **COBOL-to-Java** migration, contributing to generated-code chec
 
 | Experience | Role | Period |
 | :--- | :--- | :--- |
-| **KAIST · Auto-ID Labs Korea** | Contract Researcher | September 2026–Present |
+| **KAIST · Auto-ID Labs Korea** | AI Researcher | September 2026–Present |
 | **XenoImpact** | Software Engineer | September 2023–May 2024 |
 | **Tanker** | Software Engineer | March 2020–September 2023 |
 | **TEEware** | Android Development Intern | July–August 2018 |
