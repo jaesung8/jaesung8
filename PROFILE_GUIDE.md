@@ -6,7 +6,7 @@ This independent repository maps to `jaesung8/jaesung8`. `README.md` is the publ
 
 - Present Jaesung Lee as a computer vision researcher and software engineer. Use the current role and dates already verified in the career workspace.
 - Introduce ClusterSplat as **First-author research** and RADBench / DashBench as **Collaborative research**. Do not state numerical coauthor rank or total author counts in introductory prose.
-- Preserve full paper titles and distinguish acceptance from publication. Do not invent personal contributions, paper/code links, metrics, or contact details.
+- Introduce only confirmed papers. Show the full paper title, conference, year, and Spotlight where applicable; omit redundant `accepted`, `acceptance`, `채택`, or `게재 예정` qualifiers in titles, tables, and introductory prose. Keep status/date provenance in internal evidence records rather than copying it into the profile. Do not invent publication dates, personal contributions, paper/code links, metrics, or contact details.
 - Keep research and backend engineering visible. Group technology badges by actual use; avoid adding technologies simply to fill an icon wall.
 
 ## Visual structure

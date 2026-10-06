@@ -28,9 +28,9 @@
 
 | Research | Venue & role | What the work explores |
 | :--- | :--- | :--- |
-| **ClusterSplat** | **NeurIPS 2026 · Spotlight** (accepted)<br />**First-author research** | Language-conditioned semantic cluster selection for objects in 3D Gaussian Splatting scenes and their 2D masks. |
+| **ClusterSplat** | **NeurIPS 2026 · Spotlight**<br />**First-author research** | Language-conditioned semantic cluster selection for objects in 3D Gaussian Splatting scenes and their 2D masks. |
 | **RADBench** | **IEEE IV 2026**<br />Collaborative research | Evaluating foundation vision-language models on descriptions of autonomous-driving corner cases. |
-| **DashBench** | **BMVC 2026** (accepted)<br />Collaborative research | Evaluating video-language models' risk understanding and hallucinations in difficult driving scenarios. |
+| **DashBench** | **BMVC 2026**<br />Collaborative research | Evaluating video-language models' risk understanding and hallucinations in difficult driving scenarios. |
 
 **My work on ClusterSplat** spans problem definition, model design, implementation, evaluation, and training optimization. **My contributions to RADBench** include evaluation pipelines, hallucination mitigation, and failure analysis.
 
