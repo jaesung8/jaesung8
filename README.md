@@ -1,49 +1,39 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Jaesung Lee — Computer vision research and backend engineering" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="Jaesung Lee — Software engineering and AI research" width="100%" />
 </p>
 
 <h1 align="center">Hi, I'm Jaesung 👋</h1>
 <p align="center">
-  <strong>Computer vision researcher · Software engineer</strong><br />
-  Language-grounded 3D scenes, reliable vision-language models, and backend services.
+  <strong>Software engineer · AI Researcher</strong><br />
+  Building with Python and PyTorch, with a background in backend services and automation.
 </p>
 
 <p align="center">
   <a href="https://github.com/jaesung8?tab=repositories"><img src="https://img.shields.io/badge/Code_%26_projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Code and projects on GitHub" /></a>
-  <a href="#-selected-research"><img src="https://img.shields.io/badge/Selected_research-4355A5?style=for-the-badge" alt="Selected research" /></a>
-  <a href="#-engineering"><img src="https://img.shields.io/badge/Engineering-087E8B?style=for-the-badge" alt="Engineering experience" /></a>
+  <a href="#-current-focus"><img src="https://img.shields.io/badge/Current_focus-4355A5?style=for-the-badge" alt="Current development focus" /></a>
+  <a href="#-development"><img src="https://img.shields.io/badge/Development-087E8B?style=for-the-badge" alt="Development experience" /></a>
 </p>
 
 ### ⚡ A few quick facts
 
 - 🔬 **Currently:** AI Researcher at **Auto-ID Labs Korea, KAIST** · September 2026–Present.
-- 🎓 **Education:** M.S. in Computer Science, KAIST · completed August 2026.
-- 🌐 **Research:** 3D Gaussian Splatting, visual grounding, and vision-language model evaluation.
-- 🛠️ **Previously:** developed and operated backend services at **Tanker** and **XenoImpact**.
+- 🔭 **Working on:** language-guided 3D scene understanding and reliable vision-language AI.
+- 🧩 **Focused on:** object selection in 3D Gaussian Splatting scenes, adaptive grouping, and efficient queries.
+- 🛠️ **Engineering background:** backend services, asynchronous workers, and deployment automation at **Tanker** and **XenoImpact**.
+- 👨‍💻 **Code & projects:** explore my [GitHub repositories](https://github.com/jaesung8?tab=repositories).
 - 🧑‍🏫 **Teaching:** Python, deep learning, and LLM prompting at KAIST IT Academy.
 
 ---
 
-### 🔬 Selected research
+### 🔭 Current focus
 
-| Research | Venue & role | What the work explores |
-| :--- | :--- | :--- |
-| **ClusterSplat** | **NeurIPS 2026 · Spotlight**<br />**First-author research** | Language-conditioned semantic cluster selection for objects in 3D Gaussian Splatting scenes and their 2D masks. |
-| **RADBench** | **IEEE IV 2026**<br />Collaborative research | Evaluating foundation vision-language models on descriptions of autonomous-driving corner cases. |
-| **DashBench** | **BMVC 2026**<br />Collaborative research | Evaluating video-language models' risk understanding and hallucinations in difficult driving scenarios. |
+**Language-guided 3D object selection**<br />
+Working with **Python, PyTorch, and 3D Gaussian Splatting** to group scene objects and select them from natural-language queries. ClusterSplat is the foundation for this work; my contributions span model design, implementation, evaluation, and training optimization.
 
-**My work on ClusterSplat** spans problem definition, model design, implementation, evaluation, and training optimization. **My contributions to RADBench** include evaluation pipelines, hallucination mitigation, and failure analysis.
+**Vision-language model reliability**<br />
+Focusing on how models handle difficult visual situations. My work on RADBench and DashBench includes evaluation pipelines, hallucination-mitigation experiments, and failure analysis.
 
-<details>
-<summary><strong>📚 Full paper titles</strong></summary>
-
-- *ClusterSplat: Semantic Cluster Selection for 3D Visual Grounding in Gaussian Splatting*
-- *RADBench: Evaluating Foundation VLMs for Corner Case Description on A Comprehensive Dataset*
-- *Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving* (DashBench)
-
-</details>
-
-### 🛠 Engineering
+### 🛠 Development
 
 **Asynchronous backend services · Tanker**<br />
 Separated API requests from long-running workers with **RabbitMQ**, used **Redis** caching and **PostgreSQL**, and automated **AWS ECS** deployment with **GitHub Actions**. Integrated **pytest** into CI and modularized **Terraform**.
@@ -53,24 +43,42 @@ Participated in **COBOL-to-Java** migration, contributing to generated-code chec
 
 ### 🚀 Tools I use
 
-**Research & model evaluation**
+**Backend, infrastructure & testing**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+![AWS ECS](https://img.shields.io/badge/AWS_ECS-232F3E?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+
+**AI development & model evaluation**
+
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![CLIP](https://img.shields.io/badge/CLIP-4355A5?style=flat-square)
 ![Grounded-SAM](https://img.shields.io/badge/Grounded--SAM-4355A5?style=flat-square)
 ![3D Gaussian Splatting](https://img.shields.io/badge/3D_Gaussian_Splatting-087E8B?style=flat-square)
 
-**Backend, infrastructure & testing**
+### 🔬 Selected research
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![AWS ECS](https://img.shields.io/badge/AWS_ECS-232F3E?style=flat-square)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+- **ClusterSplat** — NeurIPS 2026 · Spotlight · **First-author research**
+- **RADBench** — IEEE IV 2026 · Collaborative research
+- **DashBench** — BMVC 2026 · Collaborative research
+
+<details>
+<summary><strong>📚 Full paper titles</strong></summary>
+
+- *ClusterSplat: Semantic Cluster Selection for 3D Visual Grounding in Gaussian Splatting*
+- *RADBench: Evaluating Foundation VLMs for Corner Case Description on A Comprehensive Dataset*
+- *Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving* (DashBench)
+
+</details>
 
 <details>
 <summary><strong>🗂️ Experience & education</strong></summary>
@@ -89,4 +97,4 @@ Participated in **COBOL-to-Java** migration, contributing to generated-code chec
 
 ---
 
-<p align="center"><sub>Research in 3D vision. Experience building and operating backend services.</sub></p>
+<p align="center"><sub>From backend services to AI models — building, testing, and improving software.</sub></p>
