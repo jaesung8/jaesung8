@@ -14,7 +14,19 @@ This independent repository maps to `jaesung8/jaesung8`. `README.md` is the publ
 
 Retain the original profile's emoji headings and tools section. The banner uses navy, teal, and violet with an abstract Gaussian scene graph. The concise research list and expandable paper/career details use GitHub-supported Markdown and HTML; core content remains readable without images.
 
-The banner is local. Static technology and navigation badges use Shields.io; they need external image access. GitHub activity-stat cards are omitted because the former provider currently reports that its public service can be unreliable. Do not add custom CSS, scripts, or inline styles to the README: GitHub sanitizes them.
+The banner is local. Static technology and navigation badges use Shields.io; they need external image access. Do not add custom CSS, scripts, or inline styles to the README: GitHub sanitizes them.
+
+## Automated GitHub features (2026-10-06)
+
+The user selected the activity rank/PR card, recent activity feed, and 3D contribution calendar. `.github/workflows/profile-activity.yml` runs daily at 06:00 Asia/Seoul and can also be dispatched manually. The action dependencies are pinned to reviewed upstream commits.
+
+- Stats Extended generates light and dark SVGs in `assets/`, emphasizing commits, PRs, reviews, merged PRs, and merge percentage. The displayed rank is a composite activity indicator, not a review of PR code quality.
+- `tools/update_activity.py` refreshes only the `START_SECTION:activity` / `END_SECTION:activity` block using the GitHub public events endpoint. Keep both markers exactly once. Exclude profile/site updates to keep generated commits from dominating the feed, and show an honest empty-state message when the recent event window has no qualifying activity.
+- GitHub Profile 3D Contrib generates the contribution calendar; commit only the light green and night green SVGs referenced by the README. Respect the existing GitHub contribution visibility settings.
+
+Use the repository's automatic `GITHUB_TOKEN`; no personal token or access to private repositories is configured. Commit generated SVGs so readers do not depend on a shared card server. Keep the last successful assets when generation fails; inspect the Actions run before claiming a refresh succeeded.
+
+Sources: [Stats Action](https://github.com/stats-organization/github-readme-stats-action), [Stats options](https://github-stats-extended.vercel.app/frontend/docs/cards/stats/), [GitHub public events](https://docs.github.com/en/rest/activity/events#list-public-events-for-a-user), [3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib).
 
 The personal-site repository is `jaesung8/jaesung8.github.io`. Publication was authorized on 2026-10-06. The source repository remains private, while its GitHub Pages site is public at [jaesung8.github.io](https://jaesung8.github.io/). The deployment workflow succeeded; retain links only to verified public destinations. Local edits are not publication.
 

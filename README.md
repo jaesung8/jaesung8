@@ -65,6 +65,28 @@ Participated in **COBOL-to-Java** migration, contributing to generated-code chec
 ![Grounded-SAM](https://img.shields.io/badge/Grounded--SAM-4355A5?style=flat-square)
 ![3D Gaussian Splatting](https://img.shields.io/badge/3D_Gaussian_Splatting-087E8B?style=flat-square)
 
+### 📊 GitHub activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-stats.svg" />
+  <img src="./assets/github-stats.svg" alt="GitHub activity rank, commits, pull requests, reviews, merged pull requests and merge percentage" width="500" />
+</picture>
+
+#### 📰 Recent activity
+
+<!--START_SECTION:activity-->
+No recent public PR, review, release, or code activity in GitHub's event window.
+<!--END_SECTION:activity-->
+
+#### 🏙 Contribution skyline
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green.svg" />
+  <img src="./profile-3d-contrib/profile-green.svg" alt="GitHub contributions rendered as a 3D skyline" width="100%" />
+</picture>
+
 ### 🔬 Selected research
 
 - **ClusterSplat** — NeurIPS 2026 · Spotlight · **First-author research**

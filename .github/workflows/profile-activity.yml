@@ -1,0 +1,86 @@
+name: Update profile activity
+
+on:
+  schedule:
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-activity.yml
+      - tools/update_activity.py
+      - tools/test_update_activity.py
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Check activity updater
+        run: python3 -m unittest discover -s tools -p 'test_*.py'
+
+      - name: Generate light activity and PR card
+        uses: stats-organization/github-readme-stats-action@96a939a7398a290e0a9f84b2b31d21d0cf67d483 # v2
+        with:
+          card: stats
+          options: username=jaesung8&show_icons=true&hide=stars,issues,contribs&show=reviews,prs_merged,prs_merged_percentage&custom_title=GitHub%20Activity%20%26%20PRs&title_color=285b84&icon_color=087E8B&ring_color=087E8B&text_color=282e34&bg_color=ffffff&border_color=e3e7ea&disable_animations=true
+          path: assets/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate dark activity and PR card
+        uses: stats-organization/github-readme-stats-action@96a939a7398a290e0a9f84b2b31d21d0cf67d483 # v2
+        with:
+          card: stats
+          options: username=jaesung8&show_icons=true&hide=stars,issues,contribs&show=reviews,prs_merged,prs_merged_percentage&custom_title=GitHub%20Activity%20%26%20PRs&title_color=80e1d6&icon_color=80e1d6&ring_color=a69eff&text_color=c1cbe5&bg_color=101d35&border_color=30363d&disable_animations=true
+          path: assets/github-stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Update recent public activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/update_activity.py --username jaesung8 --readme README.md
+
+      - name: Generate contribution skyline
+        uses: yoshi389111/github-profile-3d-contrib@9e3f937195cf840d364388973f73e3c4b3753586 # main, 2026-10-06
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: jaesung8
+
+      - name: Check generated SVGs
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          for filename in ('assets/github-stats.svg', 'assets/github-stats-dark.svg',
+                           'profile-3d-contrib/profile-green.svg',
+                           'profile-3d-contrib/profile-night-green.svg'):
+              path = Path(filename)
+              root = ET.parse(path).getroot()
+              if root.tag != '{http://www.w3.org/2000/svg}svg':
+                  raise ValueError(f'Invalid SVG: {filename}')
+              if 'Something went wrong' in path.read_text():
+                  raise ValueError(f'Error card: {filename}')
+          PY
+
+      - name: Commit refreshed profile assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/github-stats.svg assets/github-stats-dark.svg profile-3d-contrib/profile-green.svg profile-3d-contrib/profile-night-green.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'Refresh GitHub activity and contribution skyline'
+          git pull --rebase origin main
+          git push origin HEAD:main
