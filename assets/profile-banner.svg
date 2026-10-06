@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">Jaesung Lee — Research and Engineering</title>
+  <desc id="description">A navy banner with teal and violet Gaussian clusters connected as a scene graph. Computer vision, 3D scenes, and backend systems.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101d35" /><stop offset="1" stop-color="#20254b" /></linearGradient>
+    <radialGradient id="teal"><stop stop-color="#a8fff0" stop-opacity=".95" /><stop offset=".45" stop-color="#64dacd" stop-opacity=".6" /><stop offset="1" stop-color="#64dacd" stop-opacity="0" /></radialGradient>
+    <radialGradient id="violet"><stop stop-color="#ded9ff" stop-opacity=".95" /><stop offset=".45" stop-color="#a69eff" stop-opacity=".65" /><stop offset="1" stop-color="#a69eff" stop-opacity="0" /></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#8796bf" stroke-opacity=".08" /></pattern>
+    <clipPath id="bounds"><rect width="1200" height="300" rx="18" /></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1200" height="300" fill="url(#background)" />
+    <rect width="1200" height="300" fill="url(#grid)" />
+    <path d="M 680 300 L 850 0 M 840 300 L 1010 0 M 1000 300 L 1170 0" stroke="#b3a9ff" stroke-opacity=".06" fill="none" />
+    <rect x="54" y="51" width="5" height="22" rx="2.5" fill="#80e1d6" />
+    <g font-family="Arial, Helvetica, sans-serif">
+      <text x="76" y="68" fill="#80e1d6" font-size="17" font-weight="700" letter-spacing="3">RESEARCH × ENGINEERING</text>
+      <text x="52" y="143" fill="#f4f6ff" font-size="60" font-weight="700" letter-spacing="-1.5">Jaesung Lee</text>
+      <text x="56" y="184" fill="#c1cbe5" font-size="21">Computer vision researcher · Software engineer</text>
+      <g font-size="15" fill="#e4e9ff">
+        <rect x="54" y="218" width="100" height="30" rx="15" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".14" /><text x="104" y="238" text-anchor="middle">3D VISION</text>
+        <rect x="165" y="218" width="150" height="30" rx="15" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".14" /><text x="240" y="238" text-anchor="middle">MULTIMODAL AI</text>
+        <rect x="326" y="218" width="170" height="30" rx="15" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".14" /><text x="411" y="238" text-anchor="middle">BACKEND SYSTEMS</text>
+      </g>
+    </g>
+    <g fill="none" stroke="#99afce" stroke-opacity=".3" stroke-width="1.5">
+      <path d="M 817 111 L 947 74 L 1090 124 L 998 220 L 817 111 L 859 229 L 998 220 M 947 74 L 998 220 M 817 111 L 1090 124" />
+      <ellipse cx="955" cy="154" rx="194" ry="115" stroke-dasharray="4 8" stroke-opacity=".16" />
+    </g>
+    <g fill="url(#teal)">
+      <ellipse cx="817" cy="111" rx="65" ry="45" transform="rotate(-24 817 111)" /><ellipse cx="831" cy="97" rx="35" ry="25" /><ellipse cx="793" cy="132" rx="33" ry="20" />
+      <ellipse cx="998" cy="220" rx="57" ry="38" transform="rotate(18 998 220)" /><ellipse cx="1024" cy="225" rx="35" ry="23" />
+    </g>
+    <g fill="url(#violet)">
+      <ellipse cx="947" cy="74" rx="53" ry="34" transform="rotate(20 947 74)" /><ellipse cx="1090" cy="124" rx="62" ry="44" transform="rotate(-35 1090 124)" /><ellipse cx="1107" cy="103" rx="34" ry="28" /><ellipse cx="859" cy="229" rx="44" ry="29" />
+    </g>
+    <g fill="#d3fff6"><circle cx="817" cy="111" r="4" /><circle cx="998" cy="220" r="4" /></g>
+    <g fill="#e5e0ff"><circle cx="947" cy="74" r="3" /><circle cx="1090" cy="124" r="4" /><circle cx="859" cy="229" r="3" /></g>
+    <g fill="#cad5ee" fill-opacity=".55"><circle cx="774" cy="206" r="2" /><circle cx="899" cy="143" r="2" /><circle cx="1033" cy="46" r="2" /><circle cx="1128" cy="218" r="2" /></g>
+  </g>
+</svg>
