@@ -17,8 +17,8 @@
 ### ⚡ A few quick facts
 
 - 🔬 **Currently:** AI Researcher at **Auto-ID Labs Korea, KAIST** · September 2026–Present.
-- 🔭 **Working on:** language-guided 3D scene understanding and reliable vision-language AI.
-- 🧩 **Focused on:** object selection in 3D Gaussian Splatting scenes, adaptive grouping, and efficient queries.
+- 🔭 **Working on:** generalized semantic Gaussian Splatting.
+- 🧩 **Focused on:** strengthening grounding in vision-language-action (VLA) models.
 - 🛠️ **Engineering background:** backend services, asynchronous workers, and deployment automation at **Tanker** and **XenoImpact**.
 - 👨‍💻 **Code & projects:** explore my [GitHub repositories](https://github.com/jaesung8?tab=repositories).
 - 🧑‍🏫 **Teaching:** Python, deep learning, and LLM prompting at KAIST IT Academy.
@@ -27,11 +27,11 @@
 
 ### 🔭 Current focus
 
-**Language-guided 3D object selection**<br />
-Working with **Python, PyTorch, and 3D Gaussian Splatting** to group scene objects and select them from natural-language queries. ClusterSplat is the foundation for this work; my contributions span model design, implementation, evaluation, and training optimization.
+**Generalized semantic Gaussian Splatting**<br />
+Researching generalized semantic Gaussian Splatting at **Auto-ID Labs Korea, KAIST**.
 
-**Vision-language model reliability**<br />
-Focusing on how models handle difficult visual situations. My work on RADBench and DashBench includes evaluation pipelines, hallucination-mitigation experiments, and failure analysis.
+**Grounding in vision-language-action models**<br />
+Studying ways to strengthen grounding in **vision-language-action (VLA) models**.
 
 ### 🛠 Development
 
@@ -103,6 +103,8 @@ Participated in **COBOL-to-Java** migration, contributing to generated-code chec
 - *ClusterSplat: Semantic Cluster Selection for 3D Visual Grounding in Gaussian Splatting*
 - *RADBench: Evaluating Foundation VLMs for Corner Case Description on A Comprehensive Dataset*
 - *Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving* (DashBench)
+
+My master's research on **ClusterSplat** covered model design, implementation, evaluation, and training optimization for language-guided 3D object selection. My collaborative work on **RADBench and DashBench** included evaluation pipelines, hallucination-mitigation experiments, and failure analysis.
 
 </details>
 
