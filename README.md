@@ -76,11 +76,10 @@ Participated in **COBOL-to-Java** migration, contributing to generated-code chec
 #### 📰 Recent activity
 
 <!--START_SECTION:activity-->
+- 2026-11-12 (UTC) · Pushed code to [jaesung8/clustersplat](https://github.com/jaesung8/clustersplat/commit/2b28cd70614f147e7eaab5fae881284cb55f25a6)
 - 2026-10-14 (UTC) · Pushed code to [jaesung8/clustersplat](https://github.com/jaesung8/clustersplat/commit/d314d56736b194b7330a53c1563bbc2d06f6f227)
 - 2026-10-14 (UTC) · Pushed code to [jaesung8/clustersplat](https://github.com/jaesung8/clustersplat/commit/14955e286f1d1c2c90968dae91b198924a064342)
 - 2026-10-12 (UTC) · Pushed code to [jaesung8/clustersplat](https://github.com/jaesung8/clustersplat/commit/add5dae0cbaaa2b2c052eea837ed42e26bbfea28)
-- 2026-10-12 (UTC) · Pushed code to [jaesung8/clustersplat](https://github.com/jaesung8/clustersplat/commit/233be2af2db4bf7f8691992e3e5dac0d1ccc6dd0)
-- 2026-10-12 (UTC) · Pushed code to [jaesung8/clustersplat](https://github.com/jaesung8/clustersplat/commit/07545fcc32880e50b64fad066e064d5d66f1008c)
 <!--END_SECTION:activity-->
 
 #### 🏙 Contribution skyline
